@@ -64,6 +64,7 @@ tensorboard --logdir log/<log_folder>
 ```
 
 ## Reference 
+If our paper and code are useful for your research, please cite the following article:
 ```bash
 @article{zhang2021biased,
   title={A biased graph neural network sampler with near-optimal regret},
