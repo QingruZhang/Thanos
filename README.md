@@ -1,4 +1,5 @@
 # A Biased Graph Neural Network Sampler with Near-Optimal Regret
+The implementation and expremental code of Thanos graph neural network sampler [See paper](https://arxiv.org/abs/2103.01089).
 
 ## Datasets
 - Chameleon
@@ -60,4 +61,14 @@ python3 train.py --logdir log_corafull --dataset CoraFull --sampler Thanos  --mo
 ### Check Results
 ```bash
 tensorboard --logdir log/<log_folder>
+```
+
+## Reference 
+```bash
+@article{zhang2021biased,
+  title={A biased graph neural network sampler with near-optimal regret},
+  author={Zhang, Qingru and Wipf, David and Gan, Quan and Song, Le},
+  journal={arXiv preprint arXiv:2103.01089},
+  year={2021}
+}
 ```
