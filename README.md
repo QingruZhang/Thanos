@@ -35,10 +35,10 @@ python3 train.py --logdir <log_folder> --dataset <dataset> --sampler <sampler> -
 + dataset: CoraFull / ogbn-arxiv / ogbn-products
 + sampler: BanditSampler / Thanos 
 + model: GCN / GAT
-+ sample_interval: $ \Delta_{T} $, the interval for reinitialization of sampler. Set -1 for BanditSampler to turn off the reinitialization. Setting 0 will reinitialize sampler every epoch.
++ sample_interval: $$ \Delta_{T} $$, the interval for reinitialization of sampler. Set -1 for BanditSampler to turn off the reinitialization. Setting 0 will reinitialize sampler every epoch.
 + neighbor_limit: k, the number of neighbor to be sampled. 
-+ gamma: $ \gamma $
-+ eta: $ \eta $
++ gamma: $$ \gamma $$
++ eta: $$ \eta $$
 + hidden1: the dimension of hidden embedding
 + epochs: the number of epoches 
 
